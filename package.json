@@ -1,0 +1,31 @@
+{
+  "name": "safe-http-close",
+  "version": "1.0.0",
+  "description": "Close an http server even if it isn't running",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanetix/node-safe-http-close.git"
+  },
+  "keywords": [
+    "http",
+    "close",
+    "safe"
+  ],
+  "author": "Mike Atkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lanetix/node-safe-http-close/issues"
+  },
+  "homepage": "https://github.com/lanetix/node-safe-http-close#readme",
+  "devDependencies": {
+    "noop2": "^1.0.1",
+    "tape": "^4.0.0"
+  },
+  "dependencies": {
+    "curry": "^1.2.0"
+  }
+}
