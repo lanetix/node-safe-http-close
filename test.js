@@ -1,3 +1,5 @@
+'use strict';
+
 var http = require('http'),
   noop = require('noop2'),
   safeClose = require('./index'),
@@ -16,8 +18,8 @@ test('should not callback with error if closed', function (t) {
 
   server.close(function (err) {
     t.error(err);
-    safeClose(server, function (err) {
-      t.error(err);
+    safeClose(server, function (e) {
+      t.error(e);
     });
   });
 });

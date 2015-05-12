@@ -11,7 +11,7 @@ var curry = require('curry'),
   });
 
 module.exports = function (server, callback) {
-  var callback = ignoreNotRunning(callback);
+  callback = ignoreNotRunning(callback);
 
   try { //in node < 0.12, close can throw.
     server.close(callback);

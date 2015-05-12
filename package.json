@@ -4,7 +4,8 @@
   "description": "Close an http server even if it isn't running",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "npm run lint && node test.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,8 @@
     "tape": "^4.0.0"
   },
   "dependencies": {
-    "curry": "^1.2.0"
+    "curry": "^1.2.0",
+    "eslint": "^0.21.0",
+    "eslint-plugin-nodeca": "^1.0.3"
   }
 }
