@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/lanetix/node-safe-http-close#readme",
   "devDependencies": {
+    "eslint": "^0.21.0",
+    "eslint-plugin-nodeca": "^1.0.3",
     "noop2": "^1.0.1",
     "tape": "^4.0.0"
   },
   "dependencies": {
-    "curry": "^1.2.0",
-    "eslint": "^0.21.0",
-    "eslint-plugin-nodeca": "^1.0.3"
+    "curry": "^1.2.0"
   }
 }
